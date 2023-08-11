@@ -26,8 +26,8 @@ function Home() {
                             oportunidades.</p>
                         <p className="banner_slogan_l3">Conecte-se e comece a desvendar esse mundo!</p>
                         <div className="banner_botoes">
-                            <a className="botao banner_botao_dev" href="#">desenvolvedor</a>
-                            <a className="botao banner_botao_cli" href="#">cliente</a>
+                            <Link className="botao banner_botao_dev" tu="#">desenvolvedor</Link>
+                            <Link className="botao banner_botao_cli" tu="#">cliente</Link>
                         </div>
                     </div>
                 </section>

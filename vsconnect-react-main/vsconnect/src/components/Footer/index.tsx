@@ -7,6 +7,7 @@ import iconLinkedin from "../../assets/images/linkedin.svg";
 
 //estilização
 import "./style.css";
+import { Link } from "react-router-dom";
 
 
 function Footer() {
@@ -37,10 +38,13 @@ function Footer() {
                     <div className="rodape_conteudo_contatos">
                         <h2>Contatos</h2>
                         <div>
-                            <a href="#"><img src={iconFace} alt="" /></a>
-                            <a href="#"><img src={iconInsta} alt="" /></a>
-                            <a href="#"><img src={iconLinkedin} alt="" /></a>
+
+                            <Link to={"/"}><img src={iconFace} alt="" /> </Link>
+                            <Link to={"/"}><img src={iconInsta} alt="" /> </Link>
+                            <Link to={"/"}><img src={iconLinkedin} alt="" /> </Link>
+
                         </div>
+                        
                         <a href="mailto:">contato@vsconnect.com</a>
                     </div>
                 </div>
